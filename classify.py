@@ -34,6 +34,7 @@ def classify(input, model, output, workDir=None, step=None, omitSteps=None,
     @param preprocessorParams: Optional parameters controlling preprocessing. If None, will be read from model.
     @param bioNLPSTParams: Optional parameters controlling BioNLP ST format output. If None, will be read from model.
     """
+    print "hello"
     input = os.path.abspath(input)
     if goldInput != None: goldInput = os.path.abspath(goldInput)
     if model != None: model = os.path.abspath(model)
